@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed, scroll;
+}
+
+.box{
+    float: left;
+   max-width: 30%;
+   padding: 50px;
+   border: 2px black;
+   box-shadow: 2px 2px 4px #333333;
+   margin: 20px;
+   border-radius: 15px;
+}
+
+#section1{
+    float: left; 
+}
+#section3{
+    float: right;
+}
+p{
+    font-size: 1.3rem;
+}
+h3{font-size: 1.3rem;}
